@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usługi informatyczne</title>
+    <link rel="stylesheet" href="styl.css">
+    <link rel="icon" href="logo.png">
+</head>
+<body>
+    <header>
+        <section>
+            <section class="logo"><img src="logo.png" alt="logo firmy"></section>
+            <nav>
+                <a href="index.html">O nas</a>
+                <a href="uslugi.html">Usługi</a>
+                <a href="kontakt.html">Kontakt</a>
+            </nav>
+        </section>
+        <section class="baner">
+            <img src="animacja.gif">
+        </section>
+    </header>
+    <main>
+        <hr/>
+            <h1>Kontakt</h1>
+            <form>
+                <label>Imię: <input type="text" id="name" required></label><br/>
+                <label>Nazwisko: <input type="text" id="surname" required></label><br/>
+                <label>E-mail: <input type="email" id="email" required></label><br/>
+                <label>Usługa: <textarea id="text" required></textarea></label><br/>
+                <label>Zapoznałam/em się z regulaminem: <input type="checkbox" id="box"></label><br/>
+                <input type="reset" value="Resetuj"><button type="button" onclick="wyslij()">Prześlij</button>
+            </form>
+            <p id="output"></p>
+        <hr/>
+    </main>
+    <footer>
+        <p>Autor strony:000000</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
