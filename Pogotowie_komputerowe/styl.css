@@ -1,0 +1,46 @@
+body{
+    background-color: #99FFCC;
+}
+main{
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    text-align: center;
+}
+header{
+    background-color: #99FF66;
+    height: 200px;
+    text-align: center;
+}
+nav{
+    background-color: #66CCFF;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+section{
+    width: 310px;
+    padding: 10px;
+}
+footer{
+    background-color: #66CCFF;
+    color: #006666;
+    text-align: right;
+    height: 30px;
+    padding: 20px;    
+}
+a{
+    color: #006666;
+    margin: 50px;
+    font-size: 200%;
+    text-decoration: none;
+}
+h1,h2{
+    text-align: center;
+}
+input[type="reset"]{
+    background-color: #FF0000;
+}
+input[type="button"]{
+    background-color: #FF0000;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pogotowie komputerowe</title>
+    <link rel="stylesheet" href="styl.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <img src="animacja.gif">
+    </header>
+    <nav>
+        <a href="index.html">O nas</a>
+        <a href="kontakt.html">Kontakt</a>
+    </nav>
+    <main>
+        <section>
+            <h2>Formularz kontaktowy</h2>
+            <form>
+                <label>Imię:<input type="text" id="name"></label><br/>
+                <label>Nazwisko:<input type="text" id="surname"></label><br/>
+                <label>E-mail:<input type="email" id="email"></label><br/>
+                <label>Usługa:<select id="serv">
+                    <option value="naprawa komputera problemy z oprogramowaniem">naprawa komputera problemy z oprogramowaniem</option>
+                    <option value="odzyskiwanie danych">odzyskiwanie danych</option>
+                    <option value="konfiguracja sieci LAN">konfiguracja sieci LAN</option>
+                    <option value="inne">inne</option>
+                </select></label><br/>
+                <label>Wyślij kopię wiadomości<input type="checkbox" checked ></label><br/>
+                <input type="reset" value="Resetuj">
+                <input type="button" value="Prześlij" onclick="wyslij()">
+            </form>
+            <p id="output"></p>
+        </section>
+    </main>
+    <footer>
+        <p>Autor strony: 00000000</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

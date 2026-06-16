@@ -1,0 +1,52 @@
+*{
+    font-family: 'Trebuchet MS', sans-serif;
+}
+aside{
+    background-color: #C5CAE9;
+    width: 40%;
+    height: 600px;
+    overflow: scroll;
+    
+}
+.sekcja1,.sekcja2{
+    height: 300px;
+    
+}
+.sekcja1{
+    background-color: #9FA8DA;
+}
+.sekcja2{
+    background-color: #7986CB;
+}
+footer{
+    background-color: #283593;
+    color: WHITE;
+    padding: 20px; 
+}
+.opona{
+    background-color: #9FA8DA;
+    margin: 40px;
+    border: solid 2px #283593;
+    border-radius: 20px;
+}
+img{
+    float: left;
+    padding: 20px;
+}
+h2{
+    text-align: center;
+    margin: 0px;
+    padding: 15px;
+}
+h3{
+    background-color: #7986CB;
+    color: white;
+    font-size: 140%;
+}
+main{
+    display: flex;
+    width: 100%;
+}
+.kontener{
+    width: 60%;
+}
